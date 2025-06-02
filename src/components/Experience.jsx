@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Spline from "@splinetool/react-spline";
+
 
 const experiences = [
   {
@@ -37,10 +37,7 @@ const Experience = () => {
       id="experience"
       className="relative px-6 py-32 overflow-hidden bg-gradient-to-b from-black to-violet-900 lg:px-24"
     >
-      {/* Spline Background */}
-      <div className="absolute inset-0 z-0 pointer-events-none opacity-30">
-        <Spline scene="https://prod.spline.design/jPUL63ugm64H6miH/scene.splinecode" />
-      </div>
+      
 
       {/* Section Heading */}
       <div className="relative z-10 mb-16 text-center">
