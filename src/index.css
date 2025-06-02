@@ -1,0 +1,25 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Apply Geist font with a reusable class (optional) */
+.geist {
+  font-family: "Geist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* You can also use 500 or 600 */
+  font-style: normal;
+}
+
+/* Global body styles */
+body {
+  font-family:'Times New Roman', Times, serif;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: relative;
+  background-color: black;
+  color: white;
+}
