@@ -51,17 +51,6 @@ const HeroSection = () => {
       </div>
       
 
-      {/* Right Side - 3D Model */}
-     <div className="relative w-full h-[250px] sm:h-[300px] md:h-[400px] lg:h-[500px] xl:h-[600px] overflow-hidden">
-  <Spline
-    className="absolute inset-0 scale-[1] sm:scale-[1.1] md:scale-[1.2] lg:scale-[0.975] xl:scale-[1.05]"
-    scene="https://prod.spline.design/jPUL63ugm64H6miH/scene.splinecode"
-  />
-  {/* Bottom fade overlay */}
-  <div className="absolute bottom-0 left-0 w-full h-24 pointer-events-none " />
-</div>
-
-
 
     </section>
   );
