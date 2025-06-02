@@ -10,7 +10,7 @@ import blogImage from "../assets/blog-site.jpeg";
 import blogVideo from "../assets/blog-site.mp4";
 import hospitalImage from "../assets/child-hospital.jpeg";
 import hospitalVideo from "../assets/child-hospital.mp4";
-import jobImage from "../assets/job-portal.jpeg";
+import jobImage from "../assets/job-portal.jpeg"
 import jobVideo from "../assets/job-portal.mp4";
 
 const projects = [
